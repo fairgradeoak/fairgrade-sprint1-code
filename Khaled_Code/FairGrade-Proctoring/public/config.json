@@ -1,0 +1,19 @@
+{
+  "mode": "demo",
+  "apiBase": "/api",
+  "csrfToken": "",
+  "uploadOrigins": [],
+  "playbackOrigins": [],
+  "retentionDays": 30,
+  "retentionPolicyConfirmed": false,
+  "thresholds": {
+    "phoneMs": 2000,
+    "secondFaceMs": 1500,
+    "mismatchMs": 3000,
+    "noFaceMs": 3000,
+    "cooldownMs": 30000,
+    "maxSampleGapMs": 1500,
+    "identityDistance": 0.55,
+    "objectConfidence": 0.55
+  }
+}

@@ -1,0 +1,23 @@
+ظ£¤ phone trigger requires sustained observations, resets on flicker, and latches (0.7528ms)
+ظ£¤ no-face requires three seconds and unknown inference resets its timer (0.1294ms)
+ظ£¤ stale or duplicate samples cannot manufacture sustained detection (0.1327ms)
+ظ£¤ independent reasons and per-reason cooldown (0.1025ms)
+ظ£¤ identity unknown is not a mismatch, and equality is a match (0.087ms)
+ظ£¤ invalid trigger configuration and reasons are rejected (0.1726ms)
+ظ£¤ rolling selection covers exactly requested pre/post timestamps with explicit tolerance (0.9272ms)
+ظ£¤ short pre-roll, missing post-roll and internal gaps are marked partial (2.5763ms)
+ظ£¤ rolling buffer enforces memory and time limits and clears (0.3109ms)
+ظ£¤ YOLO decodes both layouts, undoes letterboxing, and keeps COCO phone/person (0.5007ms)
+ظ£¤ YOLO NMS is class-aware and unsupported schemas fail clearly (0.1975ms)
+ظ£¤ upload must succeed before event logging; credentials omitted from S3 PUT (16.7257ms)
+ظ£¤ failed upload never creates an event, unsafe origins rejected (0.8752ms)
+ظ£¤ fetch keeps the global receiver required by browser implementations (0.2696ms)
+ظ£¤ local pipeline: role checks, upload verification, idempotency, review persistence, retention (89.0157ms)
+ظ╣ tests 15
+ظ╣ suites 0
+ظ╣ pass 15
+ظ╣ fail 0
+ظ╣ cancelled 0
+ظ╣ skipped 0
+ظ╣ todo 0
+ظ╣ duration_ms 309.6384

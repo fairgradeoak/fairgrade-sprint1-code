@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-10-06T13:26:31.628Z",
+  "checks": [
+    "Consent gates start",
+    "Synthetic session arms after 7.5-second pre-roll",
+    "Sustained phone signal produces captured, uploaded and logged clip",
+    "Clip has complete 7.5-second pre/post window and encoding elapsed time within 0.5 seconds",
+    "Monitoring stops and buffer is cleared",
+    "Encoded evidence decodes in the browser at 640×480",
+    "Instructor confirmation persists across reload",
+    "Review layout fits mobile viewport",
+    "No uncaught browser exceptions"
+  ],
+  "event": {
+    "eventId": "48932479-eaae-473d-805c-b61db37b2dd2",
+    "examId": "demo-exam",
+    "reasons": [
+      "phone"
+    ],
+    "triggeredAt": "2026-10-06T13:26:07.695Z",
+    "triggerMonotonicMs": 10141.70000000298,
+    "sustainedMs": 2103.2000000029802,
+    "synthetic": true,
+    "consentVersion": "prototype-2026-10-06",
+    "consentedAt": "2026-10-06T13:25:57.972Z",
+    "thresholds": {
+      "phoneMs": 2000,
+      "secondFaceMs": 1500,
+      "mismatchMs": 3000,
+      "noFaceMs": 3000,
+      "cooldownMs": 30000,
+      "maxSampleGapMs": 1500,
+      "identityDistance": 0.55,
+      "objectConfidence": 0.55
+    },
+    "clip": {
+      "requestedStartMs": 2641.7000000029802,
+      "requestedEndMs": 17641.70000000298,
+      "sourceFirstMs": 2431.300000000745,
+      "sourceLastMs": 17681.800000000745,
+      "maxGapMs": 126.69999999925494,
+      "complete": true,
+      "preMs": 7500,
+      "postMs": 7500,
+      "toleranceMs": 250,
+      "sourceDurationMs": 15000,
+      "encodedElapsedMs": 15002.29999999702,
+      "maxReplayGapMs": 63.80000000074506,
+      "encoding": "timestamped-jpeg-buffer-to-mediarecorder",
+      "encodingToleranceMs": 500,
+      "width": 640,
+      "height": 480,
+      "audio": false,
+      "targetFps": 10
+    },
+    "objectKey": "48932479-eaae-473d-805c-b61db37b2dd2.clip",
+    "contentType": "video/webm;codecs=vp8",
+    "sizeBytes": 141439,
+    "studentId": "demo-student",
+    "createdAt": "2026-10-06T13:26:30.265Z",
+    "reviewed": false,
+    "instructorDecision": null,
+    "reviewedAt": null,
+    "reviewerId": null,
+    "version": 0,
+    "clipDeleted": false
+  },
+  "videoStats": {
+    "width": 640,
+    "height": 480,
+    "duration": 14.940276
+  },
+  "exceptions": [],
+  "limitations": [
+    "Synthetic input only; not a model accuracy or webcam test",
+    "Local mock storage only; not S3/RDS"
+  ]
+}

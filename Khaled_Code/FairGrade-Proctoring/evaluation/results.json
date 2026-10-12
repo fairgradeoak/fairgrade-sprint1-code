@@ -1,0 +1,7 @@
+[
+  {"trialId":"baseline-normal-01","round":"baseline","scenario":"normal-head-movement","completed":false,"participantAlias":"","durationSeconds":60,"expectedTrigger":false,"flagCount":null,"browser":"","lighting":"","thresholdProfile":"default","notes":"Not run"},
+  {"trialId":"baseline-glasses-01","round":"baseline","scenario":"glasses-glare","completed":false,"participantAlias":"","durationSeconds":60,"expectedTrigger":false,"flagCount":null,"browser":"","lighting":"","thresholdProfile":"default","notes":"Not run"},
+  {"trialId":"baseline-light-01","round":"baseline","scenario":"varying-light","completed":false,"participantAlias":"","durationSeconds":60,"expectedTrigger":false,"flagCount":null,"browser":"","lighting":"","thresholdProfile":"default","notes":"Not run"},
+  {"trialId":"baseline-reading-01","round":"baseline","scenario":"reading-aloud","completed":false,"participantAlias":"","durationSeconds":60,"expectedTrigger":false,"flagCount":null,"browser":"","lighting":"","thresholdProfile":"default","notes":"Not run"},
+  {"trialId":"baseline-phone-01","round":"baseline","scenario":"phone-visible","completed":false,"participantAlias":"","durationSeconds":60,"expectedTrigger":true,"flagCount":null,"browser":"","lighting":"","thresholdProfile":"default","notes":"Not run"}
+]
